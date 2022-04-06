@@ -1,0 +1,21 @@
+
+.header{
+    width: 100%;
+    height: 10vh;
+    display: grid;
+    place-items: center;
+}
+.logo{
+    color: white;
+    font-family: "poppins", sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 3vw;
+    padding: 1vw;
+    transition: 0.5s ease;
+}

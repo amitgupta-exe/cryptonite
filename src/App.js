@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles/styles.css";
+import { data } from './data';
+import Card from './components/Card';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <section className='header'>
+        <h1 className="logo">CRYPTONITE</h1>
+      </section>
+      <section className="grid-container">{
+        data.map((item) => {
+          return <Card props={item} />
+        })
+      }
+      </section>
+    </main>
   );
 }
-
 export default App;
