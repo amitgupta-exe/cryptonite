@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cryptonite/static/css/main.e0feccd0.css",
+    "main.js": "/cryptonite/static/js/main.4a2bcb40.js",
+    "static/media/bacon_landscape.jpg": "/cryptonite/static/media/bacon_landscape.bac968694fba5e83a981.jpg",
+    "static/media/caeser_landscape.jpg": "/cryptonite/static/media/caeser_landscape.b1ad57cb78326d2b0db2.jpg",
+    "index.html": "/cryptonite/index.html",
+    "main.e0feccd0.css.map": "/cryptonite/static/css/main.e0feccd0.css.map",
+    "main.4a2bcb40.js.map": "/cryptonite/static/js/main.4a2bcb40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0feccd0.css",
+    "static/js/main.4a2bcb40.js"
+  ]
+}
