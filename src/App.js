@@ -5,6 +5,7 @@ import {
   BrowserRouter,
   Route,
   Routes,
+  HashRouter,
 } from "react-router-dom";
 
 import routesConfig from './routesConfig';
@@ -17,7 +18,7 @@ import FrontPage from './pages/FrontPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="main-container">
         <div className="right">
           <Routes>
@@ -48,7 +49,7 @@ function App() {
           </Routes>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
