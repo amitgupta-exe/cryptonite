@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cryptonite/static/css/main.1afeed1c.css",
+    "main.js": "/cryptonite/static/js/main.615e89cc.js",
+    "static/js/787.71894843.chunk.js": "/cryptonite/static/js/787.71894843.chunk.js",
+    "index.html": "/cryptonite/index.html",
+    "main.1afeed1c.css.map": "/cryptonite/static/css/main.1afeed1c.css.map",
+    "main.615e89cc.js.map": "/cryptonite/static/js/main.615e89cc.js.map",
+    "787.71894843.chunk.js.map": "/cryptonite/static/js/787.71894843.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1afeed1c.css",
+    "static/js/main.615e89cc.js"
+  ]
+}
